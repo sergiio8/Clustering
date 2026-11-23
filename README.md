@@ -38,8 +38,8 @@ The goal is not to train a supervised default classifier. Instead, the project i
 
 | File | Description |
 | --- | --- |
-| [`loan-default-clustering.ipynb`](loan-default-clustering.ipynb) | Complete exploratory analysis and clustering study |
-| [`prestamos.csv`](prestamos.csv) | Loan application dataset |
+| [`notebooks/loan-default-clustering.ipynb`](notebooks/loan-default-clustering.ipynb) | Complete exploratory analysis and clustering study |
+| [`data/prestamos.csv`](data/prestamos.csv) | Loan application dataset |
 | [`LICENSE`](LICENSE) | Project license |
 
 ## Dataset
@@ -68,7 +68,7 @@ python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
-jupyter notebook loan-default-clustering.ipynb
+jupyter notebook notebooks/loan-default-clustering.ipynb
 ```
 
 The notebook uses fixed random states for the K-Means experiments so that the reported clusters and visualisations are reproducible.
